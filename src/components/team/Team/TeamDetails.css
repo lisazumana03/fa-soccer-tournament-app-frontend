@@ -1,0 +1,196 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a1628 0%, #1a2332 50%, #0f1923 100%);
+            color: #fff;
+            min-height: 100vh;
+        }
+
+        header {
+            background: linear-gradient(90deg, #00d4ff 0%, #0099ff 100%);
+            padding: 20px 30px;
+            box-shadow: 0 4px 20px rgba(0, 212, 255, 0.3);
+        }
+
+        header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px 40px 20px;
+        }
+
+        .card {
+            background: linear-gradient(145deg, rgba(26, 35, 50, 0.9) 0%, rgba(15, 25, 35, 0.9) 100%);
+            border-radius: 20px;
+            border: 2px solid rgba(0, 212, 255, 0.2);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+            padding: 25px;
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            margin-top: 0;
+            color: #00d4ff;
+            font-size: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+
+        .team-header {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            gap: 30px;
+            align-items: start;
+        }
+
+        .logo-container {
+            background: rgba(0, 0, 0, 0.3);
+            border: 2px solid rgba(0, 212, 255, 0.3);
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            min-height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo-container img {
+            max-width: 100%;
+            max-height: 160px;
+            border-radius: 10px;
+        }
+
+        .logo-placeholder {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 14px;
+        }
+
+        .team-info {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .team-name {
+            font-size: 32px;
+            font-weight: 900;
+            color: #00d4ff;
+            margin-bottom: 10px;
+        }
+
+        .team-initials {
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.7);
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .info-row {
+            display: grid;
+            grid-template-columns: 180px 1fr;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .info-label {
+            font-weight: 600;
+            color: #00d4ff;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .info-value {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 14px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 16px;
+        }
+
+        .detail-card {
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(0, 212, 255, 0.2);
+            border-radius: 12px;
+            padding: 16px;
+        }
+
+        .detail-label {
+            font-weight: 600;
+            color: #00d4ff;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+        }
+
+        .detail-value {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 14px;
+        }
+
+        .actions {
+            display: flex;
+            gap: 12px;
+            margin-top: 18px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s;
+            background: linear-gradient(90deg, #00d4ff 0%, #0099ff 100%);
+            color: #fff;
+            box-shadow: 0 5px 20px rgba(0, 212, 255, 0.4);
+        }
+
+        .btn.secondary {
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            box-shadow: none;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(0, 212, 255, 0.6);
+        }
+
+        .app-footer {
+            text-align: center;
+            padding: 24px 16px;
+            margin-top: 40px;
+            color: rgba(255, 255, 255, 0.65);
+            font-size: 13px;
+            border-top: 1px solid rgba(255, 255, 255, 0.14);
+        }
+
+        @media (max-width: 768px) {
+            .team-header {
+                grid-template-columns: 1fr;
+            }
+            
+            .logo-container {
+                margin: 0 auto;
+            }
+        }

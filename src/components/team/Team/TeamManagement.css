@@ -1,0 +1,146 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a1628 0%, #1a2332 50%, #0f1923 100%);
+            color: #fff;
+            min-height: 100vh;
+        }
+
+        header {
+            background: linear-gradient(90deg, #00d4ff 0%, #0099ff 100%);
+            padding: 20px 30px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0, 212, 255, 0.3);
+        }
+
+        header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        main {
+            max-width: 1300px;
+            margin: 30px auto;
+            padding: 0 20px 40px 20px;
+        }
+
+        .card {
+            background: linear-gradient(145deg, rgba(26, 35, 50, 0.9) 0%, rgba(15, 25, 35, 0.9) 100%);
+            border-radius: 20px;
+            border: 2px solid rgba(0, 212, 255, 0.2);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+            padding: 25px;
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #00d4ff;
+            font-size: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #00d4ff;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        select, input {
+            width: 100%;
+            padding: 12px;
+            background: rgba(0, 0, 0, 0.4);
+            border: 2px solid rgba(0, 212, 255, 0.3);
+            border-radius: 10px;
+            color: #fff;
+            font-size: 14px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+        }
+
+        .pitch {
+            background: radial-gradient(circle at center, rgba(0, 212, 255, 0.08), rgba(0, 0, 0, 0.2)),
+                        linear-gradient(180deg, rgba(0, 212, 255, 0.15), transparent 40%);
+            border: 2px solid rgba(0, 212, 255, 0.2);
+            border-radius: 18px;
+            padding: 20px;
+        }
+
+        .positions {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 14px;
+        }
+
+        .position-card {
+            background: rgba(0, 0, 0, 0.35);
+            border: 1px solid rgba(0, 212, 255, 0.2);
+            border-radius: 12px;
+            padding: 12px;
+        }
+
+        .position-title {
+            font-weight: 700;
+            font-size: 13px;
+            color: #00d4ff;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            margin-bottom: 10px;
+        }
+
+        .sub-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 14px;
+        }
+
+        .role-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        button {
+            margin-top: 25px;
+            padding: 15px 40px;
+            background: linear-gradient(90deg, #00d4ff 0%, #0099ff 100%);
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 700;
+            border-radius: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 5px 20px rgba(0, 212, 255, 0.4);
+            transition: all 0.3s;
+        }
+
+        button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(0, 212, 255, 0.6);
+        }
+
+        .app-footer {
+            text-align: center;
+            padding: 24px 16px;
+            margin-top: 40px;
+            color: rgba(255, 255, 255, 0.65);
+            font-size: 13px;
+            border-top: 1px solid rgba(255, 255, 255, 0.14);
+        }

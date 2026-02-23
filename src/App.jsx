@@ -8,8 +8,8 @@ import LoginPage from "./components/authentication/LoginPage.jsx";
 import RegisterPage from "./components/authentication/RegisterPage.jsx";
 
 // Imports for association features
-import AssociationPage from "./components/association/AssociationPage.jsx";
-import AssociationDetails from "./components/association/AssociationDetails.jsx";
+import AssociationPage from "./components/association/Association/AssociationPage.jsx";
+import AssociationDetails from "./components/association/Association/AssociationDetails.jsx";
 
 // Import for teams
 import TeamDetails from "./components/team/Team/TeamDetails.jsx";

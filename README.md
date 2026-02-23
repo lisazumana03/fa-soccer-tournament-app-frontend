@@ -1,16 +1,15 @@
-# React + Vite
+# Welcome to GoalGrid
+### By: Lisa Zumana
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This guide will explain how you use the soccer tournament application.
 
-Currently, two official plugins are available:
+## Questions I asked myself when designing the application:
+### 1. Why did I choose this application?
+Because of my love for football, I wanted to create my own tournament application to track my team's progression whether I play a FIFA tournament or simulate my own tournament.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instructions when running the application:
+1) Run `npm install` to install necceasary plugins needed for the application.
 
-## React Compiler
+2) Run `npm run dev` to access `http://localhost:2932/`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Enjoy using the application.

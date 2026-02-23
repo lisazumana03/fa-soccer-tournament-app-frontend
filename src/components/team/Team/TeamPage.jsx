@@ -212,7 +212,7 @@ export default function TeamPage() {
                 </form>
             </main>
             <footer className="app-footer">
-                © 1994/95–{new Date().getFullYear()} Soccer Tournament Manager
+                © 1994/95–{new Date().getFullYear()} GoalGrid
             </footer>
         </div>
     );

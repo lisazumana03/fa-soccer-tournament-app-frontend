@@ -116,7 +116,7 @@ const Home = () => {
 			{/* Hero Section */}
 			<section className="hero">
 				<div className="hero-content">
-					<h1>⚽ Soccer Tournament Manager</h1>
+					<h1>⚽ GoalGrid</h1>
 					<p>Professional Tournament & League Management System</p>
 					<div className="season-badge">🏆 Season 2025/26 Active</div>
 				</div>
@@ -172,7 +172,7 @@ const Home = () => {
 
 			{/* Footer */}
 			<footer className="app-footer">
-				<p>© 1994/95–{year} Soccer Tournament Manager</p>
+				<p>© 1994/95–{year} GoalGrid</p>
 				<p>Simulation environment for football governance & scheduling</p>
 			</footer>
 		</div>

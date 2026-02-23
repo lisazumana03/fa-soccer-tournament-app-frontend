@@ -159,7 +159,7 @@ export default function StadiumDetails() {
 
                 {/* Footer */}
                 <footer style={{ textAlign: "center", padding: "24px 16px", marginTop: 40, color: "rgba(255,255,255,0.65)", fontSize: 13, borderTop: "1px solid rgba(255,255,255,0.14)" }}>
-                    © 1994/95–{new Date().getFullYear()} Soccer Tournament Manager
+                    © 1994/95–{new Date().getFullYear()} GoalGrid
                 </footer>
             </main>
         </div>

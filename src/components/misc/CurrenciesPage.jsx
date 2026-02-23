@@ -133,7 +133,7 @@ export default function CurrenciesPage() {
         <section className="intro-card">
           <h2>📋 About This Currency System</h2>
           <p>
-            The Soccer Tournament Manager supports all <strong>180 official world currencies</strong> for
+            The GoalGrid supports all <strong>180 official world currencies</strong> for
             handling transfer fees, player contracts, and international
             transactions. Each currency includes its ISO 4217 code, symbol, and
             current exchange rates for accurate conversions.
@@ -309,7 +309,7 @@ export default function CurrenciesPage() {
 
       {/* Footer */}
       <footer className="app-footer">
-        © 1994/95–{new Date().getFullYear()} Soccer Tournament Manager
+        © 1994/95–{new Date().getFullYear()} GoalGrid
       </footer>
     </div>
   );

@@ -3,6 +3,10 @@ import './App.css';
 import Home from './components/common/Home.jsx';
 import CurrenciesPage from "./components/misc/CurrenciesPage.jsx";
 
+// Imports for authentication features
+import LoginPage from "./components/authentication/LoginPage.jsx";
+import RegisterPage from "./components/authentication/RegisterPage.jsx";
+
 // Import for teams
 import TeamDetails from "./components/team/Team/TeamDetails.jsx";
 import TeamManagement from "./components/team/Team/TeamManagement.jsx";

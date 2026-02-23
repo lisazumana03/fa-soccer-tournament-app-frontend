@@ -7,6 +7,10 @@ import CurrenciesPage from "./components/misc/CurrenciesPage.jsx";
 import LoginPage from "./components/authentication/LoginPage.jsx";
 import RegisterPage from "./components/authentication/RegisterPage.jsx";
 
+// Imports for association features
+import AssociationPage from "./components/association/AssociationPage.jsx";
+import AssociationDetails from "./components/association/AssociationDetails.jsx";
+
 // Import for teams
 import TeamDetails from "./components/team/Team/TeamDetails.jsx";
 import TeamManagement from "./components/team/Team/TeamManagement.jsx";

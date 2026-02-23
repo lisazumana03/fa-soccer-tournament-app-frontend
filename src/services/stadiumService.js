@@ -32,3 +32,4 @@ export const createStadium = async (stadiumData) => {
         console.error("Error creating stadium:", error);
         throw error;
     }
+}

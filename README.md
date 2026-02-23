@@ -1,6 +1,10 @@
-# React + Vite
+# Welcome to GoalGrid
+### By: Lisa Zumana
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This guide will explain how you use the soccer tournament application.
+
+## 1. Why did I choose this application?
+Because of my love for football, I wanted to create my own tournament application to track my team's progression whether I play a FIFA tournament or simulate my own tournament.
 
 Currently, two official plugins are available:
 

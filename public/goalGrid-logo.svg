@@ -1,0 +1,73 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0099ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0066cc;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="netGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#e0f7ff;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main circle background -->
+  <circle cx="256" cy="256" r="240" fill="url(#bgGradient)"/>
+  
+  <!-- Inner shadow circle -->
+  <circle cx="256" cy="256" r="240" fill="none" stroke="#0a1628" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Goal net grid pattern -->
+  <g stroke="url(#netGradient)" stroke-width="3" fill="none" opacity="0.9">
+    <!-- Vertical lines -->
+    <line x1="140" y1="140" x2="140" y2="372" stroke-linecap="round"/>
+    <line x1="180" y1="130" x2="180" y2="382" stroke-linecap="round"/>
+    <line x1="220" y1="125" x2="220" y2="387" stroke-linecap="round"/>
+    <line x1="256" y1="120" x2="256" y2="392" stroke-linecap="round"/>
+    <line x1="292" y1="125" x2="292" y2="387" stroke-linecap="round"/>
+    <line x1="332" y1="130" x2="332" y2="382" stroke-linecap="round"/>
+    <line x1="372" y1="140" x2="372" y2="372" stroke-linecap="round"/>
+    
+    <!-- Horizontal lines -->
+    <line x1="140" y1="140" x2="372" y2="140" stroke-linecap="round"/>
+    <line x1="130" y1="180" x2="382" y2="180" stroke-linecap="round"/>
+    <line x1="125" y1="220" x2="387" y2="220" stroke-linecap="round"/>
+    <line x1="120" y1="256" x2="392" y2="256" stroke-linecap="round"/>
+    <line x1="125" y1="292" x2="387" y2="292" stroke-linecap="round"/>
+    <line x1="130" y1="332" x2="382" y2="332" stroke-linecap="round"/>
+    <line x1="140" y1="372" x2="372" y2="372" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Soccer ball in the center -->
+  <g transform="translate(256, 256)">
+    <!-- Ball outline -->
+    <circle cx="0" cy="0" r="45" fill="#ffffff" stroke="#0a1628" stroke-width="3"/>
+    
+    <!-- Pentagon pattern on ball -->
+    <g fill="#0a1628">
+      <!-- Center pentagon -->
+      <path d="M 0,-15 L 14,-5 L 9,12 L -9,12 L -14,-5 Z"/>
+      
+      <!-- Pentagon edges -->
+      <path d="M 0,-15 L 0,-35"/>
+      <path d="M 14,-5 L 30,-15"/>
+      <path d="M 9,12 L 18,30"/>
+      <path d="M -9,12 L -18,30"/>
+      <path d="M -14,-5 L -30,-15"/>
+    </g>
+    
+    <!-- Hexagon accents -->
+    <g fill="none" stroke="#0a1628" stroke-width="2">
+      <path d="M -25,-20 L -15,-30 L 0,-30 L 10,-20"/>
+      <path d="M 25,-20 L 35,-15 L 35,-5"/>
+      <path d="M 25,20 L 30,30 L 20,38"/>
+      <path d="M -25,20 L -30,30 L -20,38"/>
+      <path d="M -35,-5 L -38,5 L -35,15"/>
+    </g>
+  </g>
+  
+  <!-- Outer ring accent -->
+  <circle cx="256" cy="256" r="240" fill="none" stroke="#ffffff" stroke-width="4" opacity="0.3"/>
+  <circle cx="256" cy="256" r="235" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.5"/>
+</svg>

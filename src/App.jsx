@@ -26,6 +26,12 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+
+          // Authentication routes
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/register" element={<RegisterPage />} />
+
+          // Team Routes
           <Route path="/team-management" element={<TeamManagement />} />
           <Route path="/create-team" element={<TeamPage />} />
           <Route path="/team/:teamId" element={<TeamDetails />} />

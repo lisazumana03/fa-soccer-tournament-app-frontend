@@ -11,3 +11,5 @@ Because of my love for football, I wanted to create my own tournament applicatio
 1) Run `npm install` to install necceasary plugins needed for the application.
 
 2) Run `npm run dev` to access `http://localhost:2932/`
+
+Enjoy using the application.

@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import './RegisterPage.css';
 
 export default function RegisterPage() {
     return (

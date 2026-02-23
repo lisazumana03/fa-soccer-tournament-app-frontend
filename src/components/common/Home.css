@@ -2,23 +2,23 @@
         
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #0a1628 0%, #1a2332 50%, #0f1923 100%);
+            background: linear-gradient(135deg, #0a2e0a 0%, #1a3d1a 50%, #0f250f 100%);
             color: #fff;
             min-height: 100vh;
             overflow-x: hidden;
         }
 
-        /* FIFA Animations */
-        @keyframes fifaPulse {
+        /* Football Animations */
+        @keyframes footballPulse {
             0%, 100% { 
                 transform: scale(1); 
                 opacity: 0.5; 
-                box-shadow: 0 0 10px rgba(0, 212, 255, 0.3);
+                box-shadow: 0 0 10px rgba(46, 204, 113, 0.3);
             }
             50% { 
                 transform: scale(1.05); 
                 opacity: 1;
-                box-shadow: 0 0 30px rgba(0, 212, 255, 0.6);
+                box-shadow: 0 0 30px rgba(46, 204, 113, 0.6);
             }
         }
 
@@ -34,16 +34,16 @@
         }
 
         @keyframes glow {
-            0%, 100% { text-shadow: 0 0 10px rgba(0, 212, 255, 0.5), 0 4px 10px rgba(0, 0, 0, 0.3); }
-            50% { text-shadow: 0 0 20px rgba(0, 212, 255, 0.8), 0 4px 10px rgba(0, 0, 0, 0.3); }
+            0%, 100% { text-shadow: 0 0 10px rgba(46, 204, 113, 0.5), 0 4px 10px rgba(0, 0, 0, 0.3); }
+            50% { text-shadow: 0 0 20px rgba(46, 204, 113, 0.8), 0 4px 10px rgba(0, 0, 0, 0.3); }
         }
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(135deg, #00d4ff 0%, #0099ff 50%, #0066cc 100%);
+            background: linear-gradient(135deg, #2ecc71 0%, #27ae60 50%, #1e8449 100%);
             padding: 40px 30px;
             text-align: center;
-            box-shadow: 0 8px 30px rgba(0, 212, 255, 0.4);
+            box-shadow: 0 8px 30px rgba(46, 204, 113, 0.4);
             position: relative;
             overflow: hidden;
         }
@@ -85,7 +85,7 @@
             display: inline-block;
             padding: 8px 20px;
             background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
-            color: #0a1628;
+            color: #0a2e0a;
             border-radius: 20px;
             font-weight: 700;
             font-size: 14px;
@@ -93,7 +93,7 @@
             letter-spacing: 1px;
             margin-top: 15px;
             box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4);
-            animation: fifaPulse 2s ease-in-out infinite;
+            animation: footballPulse 2s ease-in-out infinite;
         }
 
         /* Main Container */
@@ -113,10 +113,10 @@
 
         /* Stat Card Enhancements */
         .stat-card {
-            background: linear-gradient(145deg, rgba(26, 35, 50, 0.9) 0%, rgba(15, 25, 35, 0.9) 100%);
+            background: linear-gradient(145deg, rgba(26, 50, 26, 0.9) 0%, rgba(15, 35, 15, 0.9) 100%);
             padding: 25px;
             border-radius: 15px;
-            border: 2px solid rgba(0, 212, 255, 0.2);
+            border: 2px solid rgba(46, 204, 113, 0.2);
             box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
             transition: all 0.3s;
             text-align: center;
@@ -131,15 +131,15 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: radial-gradient(circle at center, rgba(0, 212, 255, 0.1) 0%, transparent 100%);
+            background: radial-gradient(circle at center, rgba(46, 204, 113, 0.1) 0%, transparent 100%);
             opacity: 0;
             transition: opacity 0.3s;
         }
 
         .stat-card:hover {
             transform: translateY(-8px);
-            border-color: #00d4ff;
-            box-shadow: 0 15px 40px rgba(0, 212, 255, 0.4);
+            border-color: #2ecc71;
+            box-shadow: 0 15px 40px rgba(46, 204, 113, 0.4);
         }
 
         .stat-card:hover::after {
@@ -149,7 +149,7 @@
         .stat-card .value {
             font-size: 42px;
             font-weight: 900;
-            background: linear-gradient(135deg, #00d4ff 0%, #0099ff 100%);
+            background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -159,7 +159,7 @@
 
         .stat-card:hover .value {
             font-size: 48px;
-            filter: drop-shadow(0 0 10px rgba(0, 212, 255, 0.5));
+            filter: drop-shadow(0 0 10px rgba(46, 204, 113, 0.5));
         }
 
         .stat-card .label {
@@ -176,7 +176,7 @@
             text-transform: uppercase;
             letter-spacing: 2px;
             margin-bottom: 25px;
-            color: #00d4ff;
+            color: #2ecc71;
             position: relative;
             padding-bottom: 12px;
             animation: slideInDown 0.8s ease-out;
@@ -189,7 +189,7 @@
             left: 0;
             width: 0;
             height: 4px;
-            background: linear-gradient(90deg, #00d4ff 0%, #0099ff 50%, transparent 100%);
+            background: linear-gradient(90deg, #2ecc71 0%, #27ae60 50%, transparent 100%);
             border-radius: 2px;
             animation: expandWidth 0.8s ease-out 0.2s forwards;
         }
@@ -209,10 +209,10 @@
         }
 
         .nav-card {
-            background: linear-gradient(145deg, rgba(26, 35, 50, 0.9) 0%, rgba(15, 25, 35, 0.9) 100%);
+            background: linear-gradient(145deg, rgba(26, 50, 26, 0.9) 0%, rgba(15, 35, 15, 0.9) 100%);
             border-radius: 20px;
-            border: 3px solid rgba(0, 212, 255, 0.2);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(0, 212, 255, 0.05);
+            border: 3px solid rgba(46, 204, 113, 0.2);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(46, 204, 113, 0.05);
             overflow: hidden;
             transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             cursor: pointer;
@@ -226,15 +226,15 @@
             left: -100%;
             width: 100%;
             height: 100%;
-            background: linear-gradient(90deg, transparent 0%, rgba(0, 212, 255, 0.2) 50%, transparent 100%);
+            background: linear-gradient(90deg, transparent 0%, rgba(46, 204, 113, 0.2) 50%, transparent 100%);
             transition: left 0.5s ease;
             z-index: 0;
         }
 
         .nav-card:hover {
             transform: translateY(-12px) scale(1.03);
-            border-color: #00d4ff;
-            box-shadow: 0 20px 50px rgba(0, 212, 255, 0.5), inset 0 0 30px rgba(0, 212, 255, 0.15);
+            border-color: #2ecc71;
+            box-shadow: 0 20px 50px rgba(46, 204, 113, 0.5), inset 0 0 30px rgba(46, 204, 113, 0.15);
         }
 
         .nav-card:hover::before {
@@ -242,7 +242,7 @@
         }
 
         .nav-card-header {
-            background: linear-gradient(135deg, #00d4ff 0%, #0099ff 100%);
+            background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);
             padding: 30px 20px;
             text-align: center;
             position: relative;
@@ -264,7 +264,7 @@
 
         .nav-card:hover .nav-card-icon {
             font-size: 56px;
-            animation: fifaPulse 0.6s ease-in-out;
+            animation: footballPulse 0.6s ease-in-out;
         }
 
         .nav-card-title {
@@ -300,10 +300,10 @@
         .nav-card-link {
             display: inline-block;
             padding: 10px 20px;
-            background: rgba(0, 212, 255, 0.2);
-            border: 2px solid rgba(0, 212, 255, 0.4);
+            background: rgba(46, 204, 113, 0.2);
+            border: 2px solid rgba(46, 204, 113, 0.4);
             border-radius: 20px;
-            color: #00d4ff;
+            color: #2ecc71;
             font-size: 13px;
             font-weight: 600;
             text-decoration: none;
@@ -313,17 +313,17 @@
         }
 
         .nav-card-link:hover {
-            background: #00d4ff;
-            color: #0a1628;
+            background: #2ecc71;
+            color: #0a2e0a;
             transform: scale(1.08);
-            box-shadow: 0 5px 15px rgba(0, 212, 255, 0.4);
+            box-shadow: 0 5px 15px rgba(46, 204, 113, 0.4);
         }
 
         /* Recent Activity */
         .activity-feed {
-            background: linear-gradient(145deg, rgba(26, 35, 50, 0.9) 0%, rgba(15, 25, 35, 0.9) 100%);
+            background: linear-gradient(145deg, rgba(26, 50, 26, 0.9) 0%, rgba(15, 35, 15, 0.9) 100%);
             border-radius: 20px;
-            border: 2px solid rgba(0, 212, 255, 0.2);
+            border: 2px solid rgba(46, 204, 113, 0.2);
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
             padding: 30px;
         }
@@ -341,7 +341,7 @@
         }
 
         .activity-item:hover {
-            background: rgba(0, 212, 255, 0.08);
+            background: rgba(46, 204, 113, 0.08);
             border-radius: 10px;
             transform: translateX(5px);
         }
@@ -354,13 +354,13 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background: rgba(0, 212, 255, 0.2);
+            background: rgba(46, 204, 113, 0.2);
             border-radius: 50%;
             transition: all 0.3s;
         }
 
         .activity-item:hover .activity-icon {
-            background: rgba(0, 212, 255, 0.4);
+            background: rgba(46, 204, 113, 0.4);
             transform: scale(1.2);
         }
 
@@ -383,7 +383,7 @@
         .activity-badge {
             padding: 6px 14px;
             background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
-            color: #0a1628;
+            color: #0a2e0a;
             border-radius: 15px;
             font-size: 11px;
             font-weight: 700;

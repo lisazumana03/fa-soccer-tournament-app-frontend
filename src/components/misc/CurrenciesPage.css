@@ -2,16 +2,16 @@
 
 .currencies-page {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #0a1628 0%, #1a2332 50%, #0f1923 100%);
+  background: linear-gradient(135deg, #0a2e0a 0%, #1a3d1a 50%, #0f250f 100%);
   color: #fff;
   min-height: 100vh;
 }
 
 .currencies-header {
-  background: linear-gradient(90deg, #00d4ff 0%, #0099ff 100%);
+  background: linear-gradient(90deg, #2ecc71 0%, #27ae60 100%);
   padding: 20px 30px;
   text-align: center;
-  box-shadow: 0 4px 20px rgba(0, 212, 255, 0.3);
+  box-shadow: 0 4px 20px rgba(46, 204, 113, 0.3);
 }
 
 .currencies-header h1 {
@@ -36,16 +36,16 @@
 }
 
 .intro-card {
-  background: linear-gradient(145deg, rgba(26, 35, 50, 0.9) 0%, rgba(15, 25, 35, 0.9) 100%);
+  background: linear-gradient(145deg, rgba(26, 61, 26, 0.9) 0%, rgba(15, 37, 15, 0.9) 100%);
   padding: 25px;
   border-radius: 15px;
-  border: 2px solid rgba(0, 212, 255, 0.2);
+  border: 2px solid rgba(46, 204, 113, 0.2);
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
   margin-bottom: 30px;
 }
 
 .intro-card h2 {
-  color: #00d4ff;
+  color: #2ecc71;
   margin-bottom: 15px;
   font-size: 20px;
   text-transform: uppercase;
@@ -59,7 +59,7 @@
 }
 
 .intro-card strong {
-  color: #00d4ff;
+  color: #2ecc71;
 }
 
 .features-grid {
@@ -73,11 +73,11 @@
   background: rgba(0, 0, 0, 0.3);
   padding: 15px;
   border-radius: 10px;
-  border-left: 4px solid #00d4ff;
+  border-left: 4px solid #2ecc71;
 }
 
 .feature-box strong {
-  color: #00d4ff;
+  color: #2ecc71;
 }
 
 .stats {
@@ -88,8 +88,8 @@
 }
 
 .stat-card {
-  background: rgba(0, 212, 255, 0.1);
-  border: 2px solid rgba(0, 212, 255, 0.3);
+  background: rgba(46, 204, 113, 0.1);
+  border: 2px solid rgba(46, 204, 113, 0.3);
   padding: 15px;
   border-radius: 10px;
   text-align: center;
@@ -98,7 +98,7 @@
 .stat-value {
   font-size: 28px;
   font-weight: 700;
-  color: #00d4ff;
+  color: #2ecc71;
 }
 
 .stat-label {
@@ -110,16 +110,16 @@
 }
 
 .converter-section {
-  background: linear-gradient(145deg, rgba(26, 35, 50, 0.9) 0%, rgba(15, 25, 35, 0.9) 100%);
+  background: linear-gradient(145deg, rgba(26, 61, 26, 0.9) 0%, rgba(15, 37, 15, 0.9) 100%);
   padding: 25px;
   border-radius: 15px;
-  border: 2px solid rgba(0, 212, 255, 0.2);
+  border: 2px solid rgba(46, 204, 113, 0.2);
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
   margin-bottom: 30px;
 }
 
 .converter-section h2 {
-  color: #00d4ff;
+  color: #2ecc71;
   margin-bottom: 20px;
   font-size: 20px;
   text-transform: uppercase;
@@ -137,7 +137,7 @@ label {
   display: block;
   font-weight: 600;
   margin-bottom: 8px;
-  color: #00d4ff;
+  color: #2ecc71;
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -148,7 +148,7 @@ select {
   width: 100%;
   padding: 12px;
   background: rgba(0, 0, 0, 0.4);
-  border: 2px solid rgba(0, 212, 255, 0.3);
+  border: 2px solid rgba(46, 204, 113, 0.3);
   border-radius: 10px;
   color: #fff;
   font-size: 14px;
@@ -159,13 +159,13 @@ select {
 input:focus,
 select:focus {
   outline: none;
-  border-color: #00d4ff;
-  box-shadow: 0 0 15px rgba(0, 212, 255, 0.3);
+  border-color: #2ecc71;
+  box-shadow: 0 0 15px rgba(46, 204, 113, 0.3);
 }
 
 .result-box {
-  background: rgba(0, 212, 255, 0.1);
-  border: 2px solid rgba(0, 212, 255, 0.3);
+  background: rgba(46, 204, 113, 0.1);
+  border: 2px solid rgba(46, 204, 113, 0.3);
   padding: 20px;
   border-radius: 10px;
   text-align: center;
@@ -175,20 +175,20 @@ select:focus {
 .result-value {
   font-size: 32px;
   font-weight: 700;
-  color: #00d4ff;
+  color: #2ecc71;
   margin: 10px 0;
 }
 
 .currencies-table {
-  background: linear-gradient(145deg, rgba(26, 35, 50, 0.9) 0%, rgba(15, 25, 35, 0.9) 100%);
+  background: linear-gradient(145deg, rgba(26, 61, 26, 0.9) 0%, rgba(15, 37, 15, 0.9) 100%);
   border-radius: 15px;
-  border: 2px solid rgba(0, 212, 255, 0.2);
+  border: 2px solid rgba(46, 204, 113, 0.2);
   overflow: hidden;
   margin-bottom: 30px;
 }
 
 .currencies-table h2 {
-  color: #00d4ff;
+  color: #2ecc71;
   padding: 20px 25px 15px;
   font-size: 20px;
   text-transform: uppercase;
@@ -218,12 +218,12 @@ td {
 }
 
 th {
-  background: linear-gradient(90deg, rgba(0, 212, 255, 0.2) 0%, rgba(0, 153, 255, 0.1) 100%);
+  background: linear-gradient(90deg, rgba(46, 204, 113, 0.2) 0%, rgba(39, 174, 96, 0.1) 100%);
   font-weight: 700;
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 0.5px;
-  color: #00d4ff;
+  color: #2ecc71;
 }
 
 tbody tr {
@@ -231,7 +231,7 @@ tbody tr {
 }
 
 tbody tr:hover {
-  background: rgba(0, 212, 255, 0.05);
+  background: rgba(46, 204, 113, 0.05);
 }
 
 tr:last-child td {
@@ -240,7 +240,7 @@ tr:last-child td {
 
 .currency-code {
   font-weight: 700;
-  color: #00d4ff;
+  color: #2ecc71;
 }
 
 .currency-symbol {
@@ -265,7 +265,7 @@ tr:last-child td {
 
 button {
   padding: 12px 24px;
-  background: linear-gradient(90deg, #00d4ff 0%, #0099ff 100%);
+  background: linear-gradient(90deg, #2ecc71 0%, #27ae60 100%);
   color: #fff;
   border: none;
   border-radius: 25px;
@@ -274,13 +274,13 @@ button {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
-  box-shadow: 0 5px 20px rgba(0, 212, 255, 0.4);
+  box-shadow: 0 5px 20px rgba(46, 204, 113, 0.4);
   transition: all 0.3s;
 }
 
 button:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 30px rgba(0, 212, 255, 0.6);
+  box-shadow: 0 8px 30px rgba(46, 204, 113, 0.6);
 }
 
 button:disabled {

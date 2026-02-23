@@ -1,73 +1,72 @@
 <svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background circle with gradient -->
   <defs>
-    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#0099ff;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#0066cc;stop-opacity:1" />
+    <linearGradient id="ballGradient" x1="20%" y1="20%" x2="80%" y2="80%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8e8e8;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="netGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9" />
-      <stop offset="100%" style="stop-color:#e0f7ff;stop-opacity:0.8" />
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2ecc71;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#27ae60;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e8449;stop-opacity:1" />
     </linearGradient>
+    <radialGradient id="shadowGradient" cx="50%" cy="50%">
+      <stop offset="60%" style="stop-color:#000000;stop-opacity:0" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0.3" />
+    </radialGradient>
   </defs>
   
-  <!-- Main circle background -->
-  <circle cx="256" cy="256" r="240" fill="url(#bgGradient)"/>
+  <!-- Shadow under ball -->
+  <ellipse cx="256" cy="420" rx="180" ry="25" fill="url(#shadowGradient)" opacity="0.4"/>
   
-  <!-- Inner shadow circle -->
-  <circle cx="256" cy="256" r="240" fill="none" stroke="#0a1628" stroke-width="2" opacity="0.3"/>
+  <!-- Soccer ball main circle -->
+  <circle cx="256" cy="256" r="200" fill="url(#ballGradient)" stroke="#1a1a1a" stroke-width="4"/>
   
-  <!-- Goal net grid pattern -->
-  <g stroke="url(#netGradient)" stroke-width="3" fill="none" opacity="0.9">
-    <!-- Vertical lines -->
-    <line x1="140" y1="140" x2="140" y2="372" stroke-linecap="round"/>
-    <line x1="180" y1="130" x2="180" y2="382" stroke-linecap="round"/>
-    <line x1="220" y1="125" x2="220" y2="387" stroke-linecap="round"/>
-    <line x1="256" y1="120" x2="256" y2="392" stroke-linecap="round"/>
-    <line x1="292" y1="125" x2="292" y2="387" stroke-linecap="round"/>
-    <line x1="332" y1="130" x2="332" y2="382" stroke-linecap="round"/>
-    <line x1="372" y1="140" x2="372" y2="372" stroke-linecap="round"/>
+  <!-- Pentagon patches (black) -->
+  <g fill="#1a1a1a" stroke="#1a1a1a" stroke-width="2">
+    <!-- Top pentagon -->
+    <path d="M 256,70 L 295,100 L 280,145 L 232,145 L 217,100 Z"/>
     
-    <!-- Horizontal lines -->
-    <line x1="140" y1="140" x2="372" y2="140" stroke-linecap="round"/>
-    <line x1="130" y1="180" x2="382" y2="180" stroke-linecap="round"/>
-    <line x1="125" y1="220" x2="387" y2="220" stroke-linecap="round"/>
-    <line x1="120" y1="256" x2="392" y2="256" stroke-linecap="round"/>
-    <line x1="125" y1="292" x2="387" y2="292" stroke-linecap="round"/>
-    <line x1="130" y1="332" x2="382" y2="332" stroke-linecap="round"/>
-    <line x1="140" y1="372" x2="372" y2="372" stroke-linecap="round"/>
+    <!-- Upper left pentagon -->
+    <path d="M 130,140 L 180,115 L 217,100 L 200,150 L 150,175 Z"/>
+    
+    <!-- Upper right pentagon -->
+    <path d="M 382,140 L 332,115 L 295,100 L 312,150 L 362,175 Z"/>
+    
+    <!-- Lower left pentagon -->
+    <path d="M 150,337 L 200,362 L 217,412 L 180,397 L 130,372 Z"/>
+    
+    <!-- Lower right pentagon -->
+    <path d="M 362,337 L 312,362 L 295,412 L 332,397 L 382,372 Z"/>
+    
+    <!-- Bottom pentagon -->
+    <path d="M 256,442 L 217,412 L 232,367 L 280,367 L 295,412 Z"/>
   </g>
   
-  <!-- Soccer ball in the center -->
-  <g transform="translate(256, 256)">
-    <!-- Ball outline -->
-    <circle cx="0" cy="0" r="45" fill="#ffffff" stroke="#0a1628" stroke-width="3"/>
-    
-    <!-- Pentagon pattern on ball -->
-    <g fill="#0a1628">
-      <!-- Center pentagon -->
-      <path d="M 0,-15 L 14,-5 L 9,12 L -9,12 L -14,-5 Z"/>
-      
-      <!-- Pentagon edges -->
-      <path d="M 0,-15 L 0,-35"/>
-      <path d="M 14,-5 L 30,-15"/>
-      <path d="M 9,12 L 18,30"/>
-      <path d="M -9,12 L -18,30"/>
-      <path d="M -14,-5 L -30,-15"/>
-    </g>
-    
-    <!-- Hexagon accents -->
-    <g fill="none" stroke="#0a1628" stroke-width="2">
-      <path d="M -25,-20 L -15,-30 L 0,-30 L 10,-20"/>
-      <path d="M 25,-20 L 35,-15 L 35,-5"/>
-      <path d="M 25,20 L 30,30 L 20,38"/>
-      <path d="M -25,20 L -30,30 L -20,38"/>
-      <path d="M -35,-5 L -38,5 L -35,15"/>
-    </g>
+  <!-- Hexagon patches (white borders on ball) -->
+  <g fill="none" stroke="#1a1a1a" stroke-width="3">
+    <path d="M 217,100 L 180,115 L 150,100 L 150,85 L 180,70 L 217,85 Z"/>
+    <path d="M 295,100 L 332,115 L 362,100 L 362,85 L 332,70 L 295,85 Z"/>
+    <path d="M 150,175 L 120,200 L 120,240 L 150,265 L 190,250 L 190,210 Z"/>
+    <path d="M 362,175 L 392,200 L 392,240 L 362,265 L 322,250 L 322,210 Z"/>
+    <path d="M 200,362 L 170,387 L 180,427 L 220,442 L 250,417 L 240,377 Z"/>
+    <path d="M 312,362 L 342,387 L 332,427 L 292,442 L 262,417 L 272,377 Z"/>
   </g>
   
-  <!-- Outer ring accent -->
-  <circle cx="256" cy="256" r="240" fill="none" stroke="#ffffff" stroke-width="4" opacity="0.3"/>
-  <circle cx="256" cy="256" r="235" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.5"/>
+  <!-- GG Text in the center with green gradient -->
+  <g font-family="Arial, sans-serif" font-weight="900" font-size="140">
+    <defs>
+      <linearGradient id="textGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" style="stop-color:#2ecc71;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#1e8449;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    <!-- Shadow for depth -->
+    <text x="256" y="290" text-anchor="middle" fill="#0a1a0a" opacity="0.3">GG</text>
+    <!-- Main text with green gradient -->
+    <text x="256" y="288" text-anchor="middle" fill="url(#textGradient)" stroke="#1e8449" stroke-width="2">GG</text>
+  </g>
+  
+  <!-- Highlight/shine effect on ball -->
+  <ellipse cx="200" cy="180" rx="80" ry="60" fill="#ffffff" opacity="0.15"/>
+  <ellipse cx="190" cy="170" rx="40" ry="30" fill="#ffffff" opacity="0.25"/>
 </svg>

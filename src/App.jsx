@@ -30,6 +30,10 @@ function App() {
           // Authentication routes
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
+          
+          // Association routes
+          <Route path="/association" element={<AssociationPage />} />
+          <Route path="/association/:associationId" element={<AssociationDetails />} />
 
           // Team Routes
           <Route path="/team-management" element={<TeamManagement />} />
@@ -39,7 +43,7 @@ function App() {
           // Player routes
           <Route path="/players" element={<PlayerPage />} />
           <Route path="/player/:playerId" element={<PlayerDetails />} /> 
-          
+
           // Stadium links
           <Route path = "/create-stadium" element={<StadiumPage />} />
           <Route path = "/stadiums" element={<StadiumList />} />

@@ -1,5 +1,17 @@
+<p align="center">
+	<img src="public/goalGrid-logo.svg" alt="GoalGrid logo" width="160" />
+</p>
+<p align="center">
+	<a href="https://react.dev">
+		<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React badge" />
+	</a>
+</p>
+<p align="center">
+	<strong>Soccer tournament management, built for clarity and momentum.</strong>
+</p>
+
 # GoalGrid
-**Soccer tournament management, built for clarity and momentum.**
+Soccer tournament management, built for clarity and momentum.
 
 GoalGrid is a full-stack tournament companion that helps you organize teams, simulate matches, and follow bracket progression with confidence. It was inspired by a love for football and a desire to build a polished, real-world application end to end.
 

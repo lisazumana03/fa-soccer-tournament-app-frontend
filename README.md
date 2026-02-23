@@ -3,7 +3,8 @@
 
 This guide will explain how you use the soccer tournament application.
 
-## 1. Why did I choose this application?
+## Questions I asked myself when designing the application:
+### 1. Why did I choose this application?
 Because of my love for football, I wanted to create my own tournament application to track my team's progression whether I play a FIFA tournament or simulate my own tournament.
 
 Currently, two official plugins are available:

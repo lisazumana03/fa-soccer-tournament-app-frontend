@@ -65,6 +65,51 @@
     box-shadow: 0 0 15px rgba(46, 204, 113, 0.4);
 }
 
+
+
+.strength-meter {
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.strength-track {
+    height: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.strength-bar {
+    height: 100%;
+    border-radius: 999px;
+    transition: width 0.3s ease;
+}
+
+.strength-bar.weak {
+    background: #ff6b6b;
+}
+
+.strength-bar.fair {
+    background: #f9c74f;
+}
+
+.strength-bar.good {
+    background: #2ecc71;
+}
+
+.strength-bar.strong {
+    background: #1e8449;
+}
+
+.strength-label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
 .register-form button {
     width: 100%;
     margin-top: 30px;
@@ -104,4 +149,11 @@
 .register-form a:hover {
     color: #27ae60;
     text-decoration: underline;
+}
+
+.password-error {
+    margin-top: 10px;
+    color: #ff6b6b;
+    font-size: 13px;
+    font-weight: 600;
 }

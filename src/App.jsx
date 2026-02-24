@@ -38,7 +38,9 @@ function App() {
           // Association routes
           <Route path="/association" element={<AssociationPage />} />
           <Route path="/association/:associationId" element={<AssociationDetails />} />
-
+          // Tournament Routes
+          // Season routes
+          // Match routes
           // Team Routes
           <Route path="/team-management" element={<TeamManagement />} />
           <Route path="/create-team" element={<TeamPage />} />

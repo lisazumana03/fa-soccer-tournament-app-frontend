@@ -10,6 +10,7 @@ import LoginPage from "./components/authentication/LoginPage.jsx";
 import RegisterPage from "./components/authentication/RegisterPage.jsx";
 
 // Imports for association features
+import CreateAssociation from "./components/association/Association/CreateAssociation.jsx";
 import AssociationPage from "./components/association/Association/AssociationPage.jsx";
 import AssociationDetails from "./components/association/Association/AssociationDetails.jsx";
 
@@ -42,6 +43,7 @@ function App() {
           // Association routes
           <Route path="/association" element={<AssociationPage />} />
           <Route path="/association/:associationId" element={<AssociationDetails />} />
+          <Route path="/create-association" element={<CreateAssociation />} />
           // Tournament Routes
           // Season routes
           // Match routes

@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import Header from './Header.jsx';
 import './Home.css';
 
 const statsData = [
@@ -113,6 +114,7 @@ const Home = () => {
 
 	return (
 		<div className="home-page">
+			<Header />
 			{/* Hero Section */}
 			<section className="hero">
 				<div className="hero-content">

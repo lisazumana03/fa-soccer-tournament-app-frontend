@@ -2,6 +2,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
 import Home from './components/common/Home.jsx';
 import CurrenciesPage from "./components/misc/CurrenciesPage.jsx";
+import About from './components/common/About.jsx';
+import Contact from './components/common/Contact.jsx';
 
 // Imports for authentication features
 import LoginPage from "./components/authentication/LoginPage.jsx";
@@ -30,6 +32,8 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
 
           // Authentication routes
           <Route path="/login" element={<LoginPage />} />

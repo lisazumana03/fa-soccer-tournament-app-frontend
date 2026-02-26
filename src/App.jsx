@@ -22,6 +22,8 @@ import TeamPage from "./components/team/Team/TeamPage.jsx";
 // Import for players
 import PlayerDetails from "./components/team/Player/PlayerDetails.jsx";
 import PlayerPage from "./components/team/Player/PlayerPage.jsx";
+import CreatePlayer from "./components/team/Player/CreatePlayer.jsx";
+import PlayerList from "./components/team/Player/PlayerList.jsx";
 
 // Import for stadiums
 import StadiumList from "./components/team/Stadium/StadiumList.jsx";
@@ -53,8 +55,10 @@ function App() {
           <Route path="/team/:teamId" element={<TeamDetails />} />
 
           // Player routes
-          <Route path="/players" element={<PlayerPage />} />
+          <Route path="/players" element={<PlayerList />} />
           <Route path="/player/:playerId" element={<PlayerDetails />} /> 
+          <Route path="/create-player" element={<CreatePlayer />} />
+          <Route path="/player-management" element={<PlayerPage />} />
 
           // Stadium links
           <Route path = "/create-stadium" element={<StadiumPage />} />

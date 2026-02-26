@@ -1,10 +1,10 @@
-import 'axios' from 'axios';
+import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:2931/api/players';
+const API_BASE_URL = 'http://localhost:2931/api/player';
 
 export const getAllPlayers = async () => {
     try {
-        const response = await axios.get(API_BASE_URL);
+        const response = await axios.get(`${API_BASE_URL}/get-all`);
         return response.data;
     } catch (error) {
         console.error('Error fetching players:', error);
@@ -24,7 +24,7 @@ export const getPlayerById = async (playerId) => {
 
 export const createPlayer = async (playerData) => {
     try {
-        const response = await axios.post(API_BASE_URL, playerData);
+        const response = await axios.post(`${API_BASE_URL}/create`, playerData);
         return response.data;
     } catch (error) {
         console.error('Error creating player:', error);
@@ -34,7 +34,7 @@ export const createPlayer = async (playerData) => {
 
 export const updatePlayer = async (playerId, playerData) => {
     try {
-        const response = await axios.put(`${API_BASE_URL}/${playerId}`, playerData);    
+        const response = await axios.put(`${API_BASE_URL}/update/${playerId}`, playerData);    
         return response.data;
     } catch (error) {
         console.error(`Error updating player with ID ${playerId}:`, error);
@@ -44,7 +44,7 @@ export const updatePlayer = async (playerId, playerData) => {
 
 export const deletePlayer = async (playerId) => {
     try {
-        await axios.delete(`${API_BASE_URL}/${playerId}`);
+        await axios.delete(`${API_BASE_URL}/delete/${playerId}`);
     } catch (error) {
         console.error(`Error deleting player with ID ${playerId}:`, error);
         throw error;

@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
+import Dashboard from './components/common/Dashboard.jsx';
 import Home from './components/common/Home.jsx';
 import CurrenciesPage from "./components/misc/CurrenciesPage.jsx";
 import About from './components/common/About.jsx';
@@ -35,6 +36,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
 
@@ -56,7 +58,9 @@ function App() {
 
           // Player routes
           <Route path="/players" element={<PlayerList />} />
-          <Route path="/player/:playerId" element={<PlayerDetails />} /> 
+          <Route path="/players/:playerId" element={<PlayerDetails />} /> 
+          <Route path="/players/edit/:playerId" element={<PlayerPage />} />
+          <Route path="/players/create" element={<PlayerPage />} />
           <Route path="/create-player" element={<CreatePlayer />} />
           <Route path="/player-management" element={<PlayerPage />} />
 

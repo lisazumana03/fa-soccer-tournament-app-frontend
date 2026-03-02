@@ -1,4 +1,4 @@
-# Welcome to GoalGrid
+# Welcome to GoalGrid Soccer Tournament Application!
 ### By: Lisa Zumana
 
 This guide will explain how you use the soccer tournament application.

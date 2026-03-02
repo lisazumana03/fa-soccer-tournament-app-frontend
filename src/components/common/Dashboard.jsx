@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import Header from './Header.jsx';
-import './Home.css';
+import './Dashboard.css';
 
 const statsData = [
 	{ label: 'Active Leagues', value: 12 },
@@ -105,7 +105,7 @@ const activityFeed = [
 	},
 ];
 
-const Home = () => {
+const Dashboard = () => {
 	const [year, setYear] = useState(new Date().getFullYear());
 
 	useEffect(() => {
@@ -113,7 +113,7 @@ const Home = () => {
 	}, []);
 
 	return (
-		<div className="home-page">
+		<div className="dashboard-page">
 			<Header />
 			{/* Hero Section */}
 			<section className="hero">
@@ -181,4 +181,4 @@ const Home = () => {
 	);
 };
 
-export default Home;
+export default Dashboard;

@@ -2,15 +2,15 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #0a1628 0%, #1a2332 50%, #0f1923 100%);
+            background: linear-gradient(135deg, #0a2e0a 0%, #1a3d1a 50%, #0f250f 100%);
             color: #fff;
             min-height: 100vh;
         }
 
         header {
-            background: linear-gradient(90deg, #00d4ff 0%, #0099ff 100%);
+            background: linear-gradient(90deg, #2ecc71 0%, #27ae60 100%);
             padding: 20px 30px;
-            box-shadow: 0 4px 20px rgba(0, 212, 255, 0.3);
+            box-shadow: 0 4px 20px rgba(46, 204, 113, 0.3);
         }
 
         header h1 {
@@ -27,9 +27,9 @@
         }
 
         .card {
-            background: linear-gradient(145deg, rgba(26, 35, 50, 0.9) 0%, rgba(15, 25, 35, 0.9) 100%);
+            background: linear-gradient(145deg, rgba(26, 61, 26, 0.9) 0%, rgba(15, 37, 15, 0.9) 100%);
             border-radius: 20px;
-            border: 2px solid rgba(0, 212, 255, 0.2);
+            border: 2px solid rgba(46, 204, 113, 0.2);
             box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
             padding: 25px;
             margin-bottom: 25px;
@@ -37,7 +37,7 @@
 
         .section-title {
             margin-top: 0;
-            color: #00d4ff;
+            color: #2ecc71;
             font-size: 20px;
             font-weight: 700;
             text-transform: uppercase;
@@ -54,7 +54,7 @@
 
         .logo-container {
             background: rgba(0, 0, 0, 0.3);
-            border: 2px solid rgba(0, 212, 255, 0.3);
+            border: 2px solid rgba(46, 204, 113, 0.3);
             border-radius: 15px;
             padding: 20px;
             text-align: center;
@@ -85,7 +85,7 @@
         .team-name {
             font-size: 32px;
             font-weight: 900;
-            color: #00d4ff;
+            color: #2ecc71;
             margin-bottom: 10px;
         }
 
@@ -105,7 +105,7 @@
 
         .info-label {
             font-weight: 600;
-            color: #00d4ff;
+            color: #2ecc71;
             font-size: 13px;
             text-transform: uppercase;
             letter-spacing: 0.5px;
@@ -124,14 +124,14 @@
 
         .detail-card {
             background: rgba(0, 0, 0, 0.3);
-            border: 1px solid rgba(0, 212, 255, 0.2);
+            border: 1px solid rgba(46, 204, 113, 0.2);
             border-radius: 12px;
             padding: 16px;
         }
 
         .detail-label {
             font-weight: 600;
-            color: #00d4ff;
+            color: #2ecc71;
             font-size: 12px;
             text-transform: uppercase;
             letter-spacing: 0.5px;
@@ -160,9 +160,9 @@
             text-transform: uppercase;
             letter-spacing: 1px;
             transition: all 0.3s;
-            background: linear-gradient(90deg, #00d4ff 0%, #0099ff 100%);
+            background: linear-gradient(90deg, #2ecc71 0%, #27ae60 100%);
             color: #fff;
-            box-shadow: 0 5px 20px rgba(0, 212, 255, 0.4);
+            box-shadow: 0 5px 20px rgba(46, 204, 113, 0.4);
         }
 
         .btn.secondary {
@@ -173,7 +173,7 @@
 
         .btn:hover {
             transform: translateY(-3px);
-            box-shadow: 0 8px 30px rgba(0, 212, 255, 0.6);
+            box-shadow: 0 8px 30px rgba(46, 204, 113, 0.6);
         }
 
         .app-footer {

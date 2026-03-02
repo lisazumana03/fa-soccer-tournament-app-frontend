@@ -1,4 +1,5 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
+import './LoginPage.css';
 
 export default function LoginPage() {
     return (
@@ -10,6 +11,7 @@ export default function LoginPage() {
                 <label htmlFor="password">Password:</label>
                 <input type="password" id="password" name="password" required />
                 <button type="submit">Login</button>
+                <p>Don't have an account? <a href="/register">Register here</a></p>
             </form>
         </div>
     )

@@ -1,10 +1,10 @@
 
-# ⚽ GoalGrid
-## Soccer Tournament Management System
-
 <p align="center">
 	<img src="public/goalGrid-logo.svg" alt="GoalGrid logo" width="160" />
 </p>
+
+# GoalGrid
+### Tournament Management Made Simple
 
 <p align="center">
 	<a href="https://react.dev">
@@ -12,15 +12,9 @@
 	</a>
 </p>
 
-<p align="center">
-	<strong>Tournament Excellence. Team Management. Strategic Clarity.</strong>
-</p>
+**🎯 GoalGrid Business Slogan: Where Champions Compete. Where Plans Thrive. Where Tournaments Triumph.**
 
----
-
-### By: Lisa Zumana
-
-**GoalGrid** — Soccer tournament management, built for clarity and momentum.
+Soccer tournament management, built for clarity and momentum.
 
 GoalGrid is a full-stack tournament companion that helps you organize teams, simulate matches, and follow bracket progression with confidence. It was inspired by a love for football and a desire to build a polished, real-world application end to end.
 

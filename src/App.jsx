@@ -10,6 +10,7 @@ import Contact from './components/common/Contact.jsx';
 import LoginPage from "./components/authentication/LoginPage.jsx";
 import RegisterPage from "./components/authentication/RegisterPage.jsx";
 
+
 // Imports for association features
 import CreateAssociation from "./components/association/Association/CreateAssociation.jsx";
 import AssociationPage from "./components/association/Association/AssociationPage.jsx";
